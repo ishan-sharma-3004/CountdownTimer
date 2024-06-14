@@ -14,6 +14,9 @@
 		F33821202C1BB80100626115 /* CountdownTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338211F2C1BB80100626115 /* CountdownTimerTests.swift */; };
 		F338212A2C1BB80200626115 /* CountdownTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33821292C1BB80200626115 /* CountdownTimerUITests.swift */; };
 		F338212C2C1BB80200626115 /* CountdownTimerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338212B2C1BB80200626115 /* CountdownTimerUITestsLaunchTests.swift */; };
+		F33821392C1BBFC900626115 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33821382C1BBFC900626115 /* Data.swift */; };
+		F338213B2C1BC01D00626115 /* ReminderInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338213A2C1BC01D00626115 /* ReminderInputView.swift */; };
+		F338213D2C1BD25C00626115 /* ReminderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F338213C2C1BD25C00626115 /* ReminderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		F33821252C1BB80100626115 /* CountdownTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountdownTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F33821292C1BB80200626115 /* CountdownTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerUITests.swift; sourceTree = "<group>"; };
 		F338212B2C1BB80200626115 /* CountdownTimerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountdownTimerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F33821382C1BBFC900626115 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		F338213A2C1BC01D00626115 /* ReminderInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderInputView.swift; sourceTree = "<group>"; };
+		F338213C2C1BD25C00626115 /* ReminderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +102,11 @@
 			children = (
 				F338210E2C1BB7FE00626115 /* CountdownTimerApp.swift */,
 				F33821102C1BB7FE00626115 /* ContentView.swift */,
+				F33821382C1BBFC900626115 /* Data.swift */,
 				F33821122C1BB80100626115 /* Assets.xcassets */,
 				F33821142C1BB80100626115 /* Preview Content */,
+				F338213A2C1BC01D00626115 /* ReminderInputView.swift */,
+				F338213C2C1BD25C00626115 /* ReminderView.swift */,
 			);
 			path = CountdownTimer;
 			sourceTree = "<group>";
@@ -257,7 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F338213B2C1BC01D00626115 /* ReminderInputView.swift in Sources */,
+				F338213D2C1BD25C00626115 /* ReminderView.swift in Sources */,
 				F33821112C1BB7FE00626115 /* ContentView.swift in Sources */,
+				F33821392C1BBFC900626115 /* Data.swift in Sources */,
 				F338210F2C1BB7FE00626115 /* CountdownTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,8 +440,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,8 +469,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
